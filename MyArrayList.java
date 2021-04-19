@@ -48,6 +48,9 @@ public class MyArrayList {
 
     public void clear(){
         //Implement your code here
+        String[] newArr = new String[4];
+        stringArr = newArr;
+        size = 0;
     }
 
     public int size(){
