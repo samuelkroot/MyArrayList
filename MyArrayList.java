@@ -25,7 +25,7 @@ public class MyArrayList {
 
     public String get(int index){
         //Implement your code here
-        return null;
+        return stringArr[index];
     }
      
     public void set(int index, String newVal){
