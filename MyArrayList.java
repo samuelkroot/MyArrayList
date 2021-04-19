@@ -42,7 +42,7 @@ public class MyArrayList {
 
     public int size(){
         //Implement your code here
-        return -1;
+        return size;
     }
 
     public String[] toArray(){
