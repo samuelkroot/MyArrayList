@@ -29,15 +29,15 @@ public class MyArrayList {
     }
      
     public void set(int index, String newVal){
-            //Implement your code here
+        //Implement your code here
     }
 
     public void remove(int index){
-            //Implement your code here
+        //Implement your code here
     }
 
     public void clear(){
-            //Implement your code here
+        //Implement your code here
     }
 
     public int size(){
