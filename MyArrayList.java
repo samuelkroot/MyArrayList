@@ -10,6 +10,17 @@ public class MyArrayList {
 
     public void add(String item){
         //Implement your code here
+        size++;
+        if (stringArr.length < size) {
+            String[] newArr = new String[2*stringArr.length];
+            for (int i = 0; i < stringArr.length; i++) {
+                newArr[i] = stringArr[i];
+            }
+            stringArr = newArr;
+            stringArr[size-1] = item;
+        } else {
+            stringArr[size-1] = item;
+        }
     }
 
     public String get(int index){
