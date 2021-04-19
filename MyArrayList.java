@@ -25,7 +25,12 @@ public class MyArrayList {
 
     public String get(int index){
         //Implement your code here
-        return stringArr[index];
+        try {
+            return stringArr[index];
+        } catch (IndexOutOfBoundsException e) {
+            System.out.print("Unable to get String; Out of Bounds Error");
+            return null;
+        }
     }
      
     public void set(int index, String newVal){
