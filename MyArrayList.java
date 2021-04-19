@@ -28,13 +28,18 @@ public class MyArrayList {
         try {
             return stringArr[index];
         } catch (IndexOutOfBoundsException e) {
-            System.out.print("Unable to get String; Out of Bounds Error");
+            System.out.print("Unable to get String at index "+index+"; Out of Bounds Error");
             return null;
         }
     }
      
     public void set(int index, String newVal){
         //Implement your code here
+        try {
+            stringArr[index] = newVal;
+        } catch (IndexOutOfBoundsException e) {
+            System.out.print("Unable to set String at index "+index+"; Out of Bounds Error");
+        }
     }
 
     public void remove(int index){
