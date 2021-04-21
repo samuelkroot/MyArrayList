@@ -44,6 +44,11 @@ public class MyArrayList {
 
     public void remove(int index){
         //Implement your code here
+        for (int i = index; i < size-2; i++) {
+            stringArr[i] = stringArr[i+1];
+        }
+        stringArr[size-1] = null;
+        size--;
     }
 
     public void clear(){
