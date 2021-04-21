@@ -60,7 +60,7 @@ public class MyArrayList {
 
     public String[] toArray(){
         //Implement your code here
-        return null;
+        return stringArr;
     }
 
     public void addAll(String[] strArr){
