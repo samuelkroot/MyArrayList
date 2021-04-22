@@ -70,6 +70,19 @@ public class MyArrayList {
 
     public void addAll(String[] strArr){
         //Implement your code here
+        for (int i = 0; i < strArr.length; i++) {
+            size++;
+            if (stringArr.length < size) {
+                String[] newArr = new String[2*stringArr.length];
+                for (int j = 0; j < stringArr.length; j++) {
+                    newArr[j] = stringArr[j];
+                }
+                stringArr = newArr;
+                stringArr[size-1] = strArr[i];
+            } else {
+                stringArr[size-1] = strArr[i];
+            }//I'd call add() if I could
+        }
     }
 
     public void addAll(MyArrayList strArrList){
