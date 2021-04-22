@@ -87,6 +87,19 @@ public class MyArrayList {
 
     public void addAll(MyArrayList strArrList){
         //Implement your code here
+        for (int i = 0; i < strArrList.size(); i++) {
+            size++;
+            if (stringArr.length < size) {
+                String[] newArr = new String[2*stringArr.length];
+                for (int j = 0; j < stringArr.length; j++) {
+                    newArr[j] = stringArr[j];
+                }
+                stringArr = newArr;
+                stringArr[size-1] = strArrList.get(i);
+            } else {
+                stringArr[size-1] = strArrList.get(i);
+            }
+        }
     }
 
 }
