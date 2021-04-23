@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MyArrayList {
 
     private String[] stringArr;
@@ -103,6 +105,6 @@ public class MyArrayList {
     }
 
     public String asString() {
-        return stringArr.toString();
+        return Arrays.toString(stringArr);
     }
 }
