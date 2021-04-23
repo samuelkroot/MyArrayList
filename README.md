@@ -9,27 +9,27 @@ https://github.com/cland29/MyArrayList
 
 There will be a series of test cases you must pass in order to earn points on this assignment. Code that hardcodes in solutions will receive a zero, even for work that was not hardcoded. It is suggested you work in the order of the functions below, but not required.
 
-Size
+Size:
 	Returns the current size of MyArrayList.
 
-Add
+Add:
 	Adds an element to MyArrayList by placing it in the stringArr variable. If stringArr is full, then you will need to create a new array of double the size, transfer all contents from stringArr to the new array, then set stringArr to the new array.
 
-Get
+Get:
 	Returns an element at the given position. Allow the object to throw an error if one tries to access an index not part of the array.
 
-Set
+Set:
 	Sets an element at a given position. If an index is specified that is less than 0 or greater than size - 1, don’t set anything.
 
-Remove
+Remove:
 	Removes an element at the given position. Allow the object to throw an error if one tries to access an index not part of the array. 
 	Once an element is remove, If stringArr is less than ¼ full, then you will need to create a new array of half the size, transfer all contents from stringArr to the new array, then set stringArr to the new array.
 
-Clear
+Clear:
 	Removes all elements from the array. Reset stringArr to have size 4.
 
-toArray
+toArray:
 	Returns as array of size size and with all contents that MyArrayList holds.
 
-addAll
+addAll:
 	Adds all elements of either a String array or another MyArrayList.
