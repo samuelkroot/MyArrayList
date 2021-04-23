@@ -102,7 +102,7 @@ public class MyArrayList {
         }
     }
 
-    public String toString() {
+    public String asString() {
         return stringArr.toString();
     }
 }
