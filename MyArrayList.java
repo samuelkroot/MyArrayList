@@ -102,7 +102,7 @@ public class MyArrayList {
         }
     }
 
-    public void printMyArrayList() {
-        System.out.print(stringArr.toString());
+    public String toString() {
+        return stringArr.toString();
     }
 }
